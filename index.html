@@ -1,0 +1,162 @@
+
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Grupo de Meninas - Ciência da Computação (IFC Campus Blumenau)</title>
+  <meta name="description" content="Registro do grupo de meninas do curso de Ciência da Computação do IFC Campus Blumenau: objetivos, artigos de referência, logotipo e ações de 2024.">
+  <style>
+    :root{--bg:#f6f8fb;--card:#ffffff;--muted:#6b7280;--accent:#0f62fe}
+    *{box-sizing:border-box}
+    body{font-family:Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial; margin:0; background:var(--bg); color:#111}
+    .container{max-width:1000px;margin:36px auto;padding:24px}
+    header{display:flex;gap:16px;align-items:center}
+    .logo{width:88px;height:88px;background:#e6eefc;border-radius:12px;display:flex;align-items:center;justify-content:center;overflow:hidden}
+    .logo img{width:100%;height:100%;object-fit:contain}
+    h1{margin:0;font-size:1.6rem}
+    p.lead{color:var(--muted);margin:6px 0 18px}
+    .card{background:var(--card);padding:18px;border-radius:12px;box-shadow:0 6px 18px rgba(15,22,39,0.06);margin-bottom:16px}
+    .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:12px}
+    .img-wrap{position:relative;border-radius:8px;overflow:hidden;background:#ddd;min-height:160px;display:flex;align-items:center;justify-content:center}
+    .img-wrap img{width:100%;height:100%;object-fit:cover;display:block}
+    .caption{font-size:0.9rem;color:var(--muted);margin-top:8px}
+    ul.references{padding-left:1.1rem}
+    a{color:var(--accent);text-decoration:none}
+    a:hover{text-decoration:underline}
+    footer{color:var(--muted);font-size:0.9rem;margin-top:18px}
+    @media (prefers-color-scheme:dark){:root{--bg:#0b1220;--card:#071020;--muted:#9aa4b2}}
+    /* simple lightbox */
+    .lightbox{position:fixed;inset:0;display:none;align-items:center;justify-content:center;background:rgba(2,6,23,0.7);z-index:60}
+    .lightbox img{max-width:92%;max-height:86%;border-radius:8px}
+    .close-btn{position:absolute;top:20px;right:20px;background:transparent;border:0;color:#fff;font-size:28px}
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <div class="logo" aria-hidden>
+        <!-- Substitua por images/logo.png -->
+        <img src="images/logotipo-IFC-meninas-2024.jpeg" alt="Logotipo do grupo">
+      </div>
+      <div>
+        <h1>Grupo de Meninas — Ciência da Computação (IFC Campus Blumenau)</h1>
+        <p class="lead">Organização iniciada em 30/04/2024 para incentivar a aprendizagem de computação pelo público feminino.</p>
+      </div>
+    </header>
+
+    <section class="card">
+      <h2>Sobre o início</h2>
+      <p>Em <strong>30/04/2024</strong> iniciou-se a organização do grupo de meninas do curso superior em Ciência da Computação do IFC Campus Blumenau para eventualmente incentivar a aprendizagem de computação pelo público feminino.</p>
+    </section>
+
+    <section class="card">
+      <h2>Registro fotográfico</h2>
+      <div class="grid">
+        <figure>
+          <div class="img-wrap" tabindex="0" role="button" aria-label="Abrir foto 1" onclick="openLightbox('images/reuniao_inicial_01_2024.png')" onkeypress="if(event.key==='Enter') openLightbox('images/reuniao_inicial_01_2024.png')">
+            <img src="images/reuniao_inicial_01_2024.png" alt="Foto 1 - atividade do grupo">
+          </div>
+          <figcaption class="caption">Reunião Inicial (I)</figcaption>
+        </figure>
+
+        <figure>
+          <div class="img-wrap" tabindex="0" role="button" aria-label="Abrir foto 2" onclick="openLightbox('images/reuniao_inicial_02_2024.png')" onkeypress="if(event.key==='Enter') openLightbox('images/reuniao_inicial_02_2024.png')">
+            <img src="images/reuniao_inicial_02_2024.png" alt="Foto 2 - atividade do grupo">
+          </div>
+          <figcaption class="caption">Reunião Inicial (II)</figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <section class="card">
+      <h2>Artigos que embasaram as conversas</h2>
+      <p class="caption">Estes são alguns artigos que foram lidos e discutidos pelo grupo:</p>
+      <ul class="references">
+        <li><a href="papers/teague2002 Women in computing what brings to it what keeps them in it.pdf" title="Abrir artigo">Women in Computing: What brings them to it, what keeps them in it?</a></li>
+        <li><a href="papers/corneliussen2004 I dont understand computer programming because Im a woman Negotiating gendered positions in a Norwegian discourse of computing.pdf" title="Abrir artigo">"I don't understand computer programming, because I'm a woman!" Negotiating gendered positions in a Norwegian discourse of computing</a></li>
+        <li><a href="papers/lyon2021 Coding Boot Camps Enabling Women to Enter Computing Professions.pdf title="Abrir artigo">Coding Boot Camps: Enabling Women to Enter Computing Professions</a></li>
+        <li><a href="papers/mooney2020 Sense of Belonging The Intersectionality of Self-Identified Minority Status and Gender in Undergraduate Computer Science Students.pdf title="Abrir artigo">Sense of Belonging: The Intersectionality of Self-Identified Minority Status and Gender in Undergraduate Computer Science Students</a></li>
+        <li><a href="papers/rosenstein2020 Identifying the Prevalence of the Impostor Phenomenon Among Computer Science Students.pdf" title="Abrir artigo">Identifying the Prevalence of the Impostor Phenomenon Among Computer Science Students</a></li>
+      </ul>
+      <p class="caption">Na sequência, foi escolhido o logotipo para representar o grupo junto à SBC (<a href="https://meninas.sbc.org.br/projetos-parceiros/meninas-digitais-no-ifc-campus-blumenau/">link SBC</a>):</p>
+      <div style="display:flex;gap:12px;align-items:center;margin-top:8px">
+        <div style="width:240px;height:160px;border-radius:8px;overflow:hidden;background:#fff;display:flex;align-items:center;justify-content:center">
+          <img src="images/logotipo-IFC-meninas-2024.jpeg" alt="Logotipo do grupo" style="width:100%;height:100%;object-fit:contain">
+        </div>
+        <!--
+        <div>
+          <strong>logotipo</strong>
+          <div class="caption">Use a imagem <code>images/logotipo.png</code> para substituir.</div>
+        </div>
+        -->
+      </div>
+      <p>Em 2024 as ações foram guiadas por um projeto de extensão chamado <a href="https://sig.ifc.edu.br/sigaa/link/public/extensao/visualizacaoAcaoExtensao/3624">Meninas digitais no IFC Campus Blumenau</a></p>
+    </section>
+
+    <section class="card">
+      <h2>Ações de divulgação (2024)</h2>
+      <p>Em 2024, foram realizadas ações de divulgação do projeto em turmas de ensino médio:</p>
+      <div class="grid" style="margin-top:8px">
+        <figure>
+          <div class="img-wrap" tabindex="0" role="button" aria-label="Abrir foto 3" onclick="openLightbox('images/2024_divulgacao_1o_ano_a.jpeg')" onkeypress="if(event.key==='Enter') openLightbox('images/2024_divulgacao_1o_ano_a.jpeg')">
+            <img src="images/2024_divulgacao_1o_ano_a.jpeg" alt="Divulgação 1">
+          </div>
+          <figcaption class="caption">foto1</figcaption>
+        </figure>
+
+        <figure>
+          <div class="img-wrap" tabindex="0" role="button" aria-label="Abrir foto 4" onclick="openLightbox('images/2024_divulgacao_1o_ano_b.jpeg')" onkeypress="if(event.key==='Enter') openLightbox('images/2024_divulgacao_1o_ano_b.jpeg')">
+            <img src="images/2024_divulgacao_1o_ano_b.jpeg" alt="Divulgação 2">
+          </div>
+          <figcaption class="caption">foto2</figcaption>
+        </figure>
+      </div>
+
+      <div class="grid" style="margin-top:8px">
+        <figure>
+          <div class="img-wrap" tabindex="0" role="button" aria-label="Abrir foto 3" onclick="openLightbox('images/2024_divulgacao_1o_ano_c.jpeg')" onkeypress="if(event.key==='Enter') openLightbox('images/2024_divulgacao_1o_ano_c.jpeg')">
+            <img src="images/2024_divulgacao_1o_ano_c.jpeg" alt="Divulgação 3">
+          </div>
+          <figcaption class="caption">foto3</figcaption>
+        </figure>
+      </div>
+
+    </section>
+
+    <footer>
+      <div>IFC Campus Blumenau</div>
+    </footer>
+  </div>
+
+  <div id="lightbox" class="lightbox" onclick="closeLightbox(event)">
+    <button class="close-btn" aria-label="Fechar">×</button>
+    <img id="lightbox-img" src="" alt="Foto ampliada">
+  </div>
+
+  <script>
+    function openLightbox(src){
+      const lb = document.getElementById('lightbox');
+      const img = document.getElementById('lightbox-img');
+      img.src = src;
+      lb.style.display = 'flex';
+      document.body.style.overflow = 'hidden';
+    }
+    function closeLightbox(e){
+      if(e.target.id === 'lightbox' || e.target.classList.contains('close-btn')){
+        const lb = document.getElementById('lightbox');
+        lb.style.display = 'none';
+        document.getElementById('lightbox-img').src = '';
+        document.body.style.overflow = '';
+      }
+    }
+    // keyboard accessibility
+    document.addEventListener('keydown', function(ev){
+      if(ev.key === 'Escape'){
+        const lb = document.getElementById('lightbox');
+        if(lb.style.display === 'flex') closeLightbox({target:lb});
+      }
+    });
+  </script>
+</body>
+</html>
